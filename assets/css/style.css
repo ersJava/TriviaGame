@@ -1,0 +1,30 @@
+body {
+    background: url("../images/stars.png");
+  }
+  
+  #wrapper {
+      background: rgb(255, 253, 224);
+      height: 900px;
+      width: 900px;
+      position: relative;
+      left: 230px;
+
+  }
+
+  #banner {
+    left: 214px;
+    width: 901px;
+   height: 260px
+  }
+
+  h1 {
+      text-align: center;
+      font-family: 'Charmonman', cursive;
+      font-size: 50px;
+      color: palevioletred;
+  }
+
+  p {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+  }
