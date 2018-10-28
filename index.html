@@ -6,14 +6,131 @@
         <title>Trivia Game</title>
         <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Charmonman|Lora" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Charmonman|Dancing+Script|Lora|Patrick+Hand" rel="stylesheet">
+
 </head>
 
     <body>
+        <div id="wrapper00">
+            <img id="frontpic" src="assets/images/sailormoonfront00.jpg" style="width:340px;height:500px;">
+            <h1>Sailor Moon Trivia</h1>
+            <br>
+                <h2>Are you a true Sailor Moon fan? Play this Trivia Game and find out!
+                    You have 90 seconds to answer every question. Good luck!
+                </h2>
+                <button class="button">Start</button>
+        </div>
+
         <div id="wrapper">
             <img id="banner" src="assets/images/sailormoonbanner.jpg" style="width:900px;height:230px;">
-        <h1>Sailor Moon Trivia</h1>
-        <p>Hello Sailor Mooon fans</p>
+    
+                <h3>Time Remaining: <div id="time"></div></h3>
+                 <br>
+                 <form id="quiz" action="/action_page.php"> 
+                     <!-- <form action="/action_page.php"></form> -->
+                    <h4>
+                        1. The original Japanesse Manga created by Naoko Takeuchi is called 
+                        "Bishōjo Senshi Sērā Mūn", which translates to what in English?
+                        <br>
+                        <br>
+                        <div class="radio-style" id="question-1">
+                            <input type="radio" name="q1" value="a">Pretty Solider Sailor Moon
+                            <input type="radio" name="q1" value="b"> Crystal Protector Sailor Moon
+                            <input type="radio" name="q1" value="c">Love and Justice Pretty Solider
+                            <input type="radio" name="q1" value="d">Sailor Warriors of the Galaxy
+                        </div>
+                    </h4>
+                    <br>
+                    <br>
+                    <h4>
+                        2. Who was the first scout to join Sailor Moon?
+                        <br>
+                        <br>
+                        <div class="radio-style">
+                            <input type="radio" name="q2" value="a">Sailor Jupiter
+                            <input type="radio" name="q2" value="b">Sailor Mercury
+                            <input type="radio" name="q2" value="c">Sailor Mars
+                            <input type="radio" name="q2" value="d">Sailor Saturn
+                        </div>
+                    </h4>
+                    <br>
+                    <br>
+                    <h4>
+                        3. When is Serena/ Usagi Tsukino's birthday?
+                        <br>
+                        <br>
+                        <div class="radio-style">
+                            <input type="radio" name="q3" value="a">December 26
+                            <input type="radio" name="q3" value="b">March 18
+                            <input type="radio" name="q3" value="c">November 21
+                            <input type="radio" name="q3" value="d">June 30
+                        </div>
+                    </h4>
+                    <br>
+                    <br>
+                    <h4>
+                        4. In which city does the story take place?
+                        <br>
+                        <br>
+                        <div class="radio-style">
+                            <input type="radio" name="q4" value="a">Busan
+                            <input type="radio" name="q4" value="b">Sapporo
+                            <input type="radio" name="q4" value="c">Seoul
+                            <input type="radio" name="q4" value="d">Tokyo
+                        </div>
+                    </h4>
+                    <br>
+                    <br>
+                    <h4>
+                        5. Who was the final antagonist of the series?
+                        <br>
+                        <br>
+                        <div class="radio-style">
+                            <input type="radio" name="q5" value="a">Death Phantom
+                            <input type="radio" name="q5" value="b">Queen Beryle
+                            <input type="radio" name="q5" value="c">Sailor Galaxia
+                            <input type="radio" name="q5" value="d">Queen Nehllenia
+                        </div>
+                    </h4>
+                    <br>
+                    <br>
+                    <h4>
+                        6. What is Darien/Mamoru's nickname for Serena/ Usagi?
+                        <br>
+                        <br>
+                        <div class="radio-style">
+                            <input type="radio" name="q6" value="a">Bunny
+                            <input type="radio" name="q6" value="b">Meatball Head
+                            <input type="radio" name="q6" value="c">Moon Godess
+                            <input type="radio" name="q6" value="d">My Moon and Stars
+                        </div>
+                     </h4>
+                    
+                    <br>
+                    <br>
+                     <h4>
+                         7. How many Sailor Scouts/Sailor Senshi are there?
+                         <br>
+                         <br>
+                         <div class="radio-style">
+                             <input type="radio" name="q7" value="a">9
+                             <input type="radio" name="q7" value="b">12
+                             <input type="radio" name="q7" value="c">5
+                             <input type="radio" name="q7" value="d">6
+                         </div>
+                      </h4>
+                    <input type="submit" value="Submit" id="submit">
+                </form>
+        </div>
+
+        <div id="wrapper02">
+                <img id="frontpic" src="assets/images/sailormoonback02.jpg" style="width:340px;height:500px;">
+                <h1 id="backh1">Your results!</h1>
+                <br>
+                 <p id="correct">Correct: </p>
+                 <p id="incorrect:">Incorrect: </p>
+                 <p id="missing:">Missing: </p>
+
         </div>
 
         <footer></footer>
