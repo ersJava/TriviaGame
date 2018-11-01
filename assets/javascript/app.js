@@ -4,6 +4,7 @@ $(document).ready(function() {
 var clockStart = 90;
 var intervalId;
 
+
 //Functions
 $('#wrapper').hide();
 $('#wrapper02').hide();
@@ -22,19 +23,19 @@ function decrement(){
     clockStart--;
     $("#time").html("<h3>" + clockStart + "</h3>");
 
-
     if (clockStart === 0) {
 
         stop();
         $('#wrapper').hide();
         $('#wrapper02').show();
-       
+        generateResults();
     }
 
 function stop() {
     clearInterval(intervalId);
   }
 }
+
 timer();
 
 });
@@ -42,41 +43,88 @@ timer();
 $('#submit').on('click', function() {
     $('#wrapper').hide();
     $('#wrapper02').show();
+    generateResults()
 
 });
-
-function generateResults() {
-
-// create an object with the an answer array?
-//Or set item?
-// .setItem('q1', 'a')
-// .setItem('q2', 'b') 
-// .setItem('q3', 'd') 
-// .setItem('q4', 'd') 
-// .setItem('q5', 'c') 
-// .setItem('q6', 'b')
-// .setItem('q7', 'a')  
-
-// compare user input to answer array
-//print results
-$("#correct").text(answer + "")
-$("#incorrect").text(answer + "")
-$("#missing").text(answer + "")
-
-}
 
 $("#quiz").submit(function(event){
     event.preventDefault();
-    generateResults()
     // var $answers = $(value);
-  
-
-
 });
 
+function generateResults() {
+   
+var correct= 0;
+var incorrect= 0;
+var missing= 0;
 
-// Logic
+    if($("input[name='q1']:checked").val() === 'a'){
+        correct++;
+    }else if($("input[name='q1']:checked").val() === undefined){
+        missing++;
+    }else{
+        incorrect++;
+        }
 
+     if($("input[name='q2']:checked").val() === 'b'){
+         correct++;
+     }else if($("input[name='q2']:checked").val() === undefined){
+         missing++;
+     }else{
+         incorrect++;
+        }
 
+     if($("input[name='q3']:checked").val() === 'd'){
+        correct++;
+    }else if($("input[name='q3']:checked").val() === undefined){
+        missing++;
+    }else{
+        incorrect++;
+        }
+    
+    if($("input[name='q4']:checked").val() === 'd'){
+        correct++;
+    }else if($("input[name='q4']:checked").val() === undefined){
+        missing++;
+    }else{
+        incorrect++;
+         }
+
+    if($("input[name='q5']:checked").val() === 'c'){
+        correct++;
+    }else if($("input[name='q5']:checked").val() === undefined){
+        missing++;
+    }else{
+        incorrect++;
+        }
+   
+    if($("input[name='q6']:checked").val() === 'b'){
+        correct++;
+    }else if($("input[name='q6']:checked").val() === undefined){
+        missing++;
+    }else{
+        incorrect++;
+           }
+       
+    if($("input[name='q7']:checked").val() === 'a'){
+        correct++;
+    }else if($("input[name='q7']:checked").val() === undefined){
+        missing++;
+    }else{
+        incorrect++;
+        }
+
+$("#correct span").text(correct);
+$("#incorrect span").text(incorrect);
+$("#missing span").text(missing);
+
+}
 });
+
+//Task for next time
+// for (let i = 0; i < questions.length; i++) {}
+//     console.log(questions[i]);
+//     //is this right? is it wrong?
+
+
 
