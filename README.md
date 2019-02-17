@@ -1,7 +1,7 @@
 # Sailor Moon Triva Game
 https://ersjava.github.io/TriviaGame/
 
-An interactive web browser trivia game that uses JavaScript for the logic and jQuery that dynamically updates the HTML.
+An interactive web browser trivia game that uses JavaScript for the logic and jQuery that dynamically updates the HTML and a nod to one of my favorite childhood cartoons!
 
 ## How It Works
 
