@@ -1,5 +1,27 @@
-# TriviaGame
+# Sailor Moon Triva Game
+https://ersjava.github.io/TriviaGame/
 
-Test your Sailor Moon knowledge with this trivia game made for true Sailor Moon fans! 
+An interactive web browser trivia game that uses JavaScript for the logic and jQuery that dynamically updates the HTML.
 
-You have 90 seconds to guess 10 multiple choice questions correctly. 
+## How It Works
+
+![Screenshot of game](/assets/images/screenshot01.png) 
+
+* The user has 90 seconds to answer 10 Sailor Moon trivia questions.
+
+* The questions are multiple choice.
+
+* The user's results are displayed at the end of the game.
+
+
+## Project Details
+
+### Technologies Used
+* jQuery
+* JavaScript
+* CSS
+* HTML5
+
+## Contributing
+Pull request are welcome!
+
