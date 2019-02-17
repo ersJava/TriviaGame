@@ -5,7 +5,7 @@ An interactive web browser trivia game that uses JavaScript for the logic and jQ
 
 ## How It Works
 
-<img src="https://github.com/ersJava/TriviaGame/blob/master/screenshot01.png" width="400" height="430" alt="screenshot">
+<img src="https://github.com/ersJava/TriviaGame/blob/master/screenshot01.png" width="550" height="330" alt="screenshot">
 
 * The user has 90 seconds to answer 10 Sailor Moon trivia questions.
 
