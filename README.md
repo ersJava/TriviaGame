@@ -11,7 +11,7 @@ An interactive web browser trivia game that uses JavaScript for the logic and jQ
 
 <img src="https://github.com/ersJava/TriviaGame/blob/master/screenshot01.png" width="550" height="330" alt="screenshot">
 
-<img src="https://github.com/ersJava/TriviaGame/blob/master/screenshot02.png" width="530" height="630" alt="screenshot">
+<img src="https://github.com/ersJava/TriviaGame/blob/master/screenshot02.png" width="550" height="630" alt="screenshot">
 
 <img src="https://github.com/ersJava/TriviaGame/blob/master/screenshot03.png" width="550" height="330" alt="screenshot">
 
