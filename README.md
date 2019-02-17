@@ -9,10 +9,12 @@ An interactive web browser trivia game that uses JavaScript for the logic and jQ
 
 * The user has 90 seconds to answer 10 Sailor Moon trivia questions.
 
-![Screenshot of game](screenshot02.png) 
+
+<img src="https://github.com/ersJava/TriviaGame/blob/master/screenshot02.png" width="350" height="530" alt="screenshot">
 * The questions are multiple choice.
 
-![Screenshot of game](screenshot03.png) 
+
+<img src="https://github.com/ersJava/TriviaGame/blob/master/screenshot03.png" width="550" height="330" alt="screenshot">
 * The user's results are displayed at the end of the game.
 
 
